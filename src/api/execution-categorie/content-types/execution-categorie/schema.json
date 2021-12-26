@@ -16,11 +16,11 @@
       "pluginOptions": {},
       "type": "string"
     },
-    "relationexecutionscategories": {
+    "executions": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::execution.execution",
-      "inversedBy": "relationexecution"
+      "mappedBy": "execution_category"
     }
   }
 }

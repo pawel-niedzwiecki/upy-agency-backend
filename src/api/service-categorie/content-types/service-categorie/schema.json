@@ -17,11 +17,11 @@
       "type": "string",
       "unique": true
     },
-    "relationservices": {
+    "services": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::service.service",
-      "mappedBy": "relationservicecategory"
+      "mappedBy": "service_categorie"
     }
   }
 }
