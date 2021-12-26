@@ -8,27 +8,19 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
     "relationexecution": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::execution-categorie.execution-categorie",
-      "inversedBy": "relationexecutionscategories"
+      "mappedBy": "relationexecutionscategories"
     }
   }
 }
