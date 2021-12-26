@@ -24,11 +24,11 @@
       },
       "type": "string"
     },
-    "execution_categories": {
+    "relationexecution": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::execution-categorie.execution-categorie",
-      "inversedBy": "executions"
+      "inversedBy": "relationexecutionscategories"
     }
   }
 }

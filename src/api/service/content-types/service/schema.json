@@ -15,11 +15,11 @@
     "title": {
       "type": "string"
     },
-    "service_category": {
+    "relationservicecategory": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::service-categorie.service-categorie",
-      "inversedBy": "services"
+      "inversedBy": "relationservices"
     }
   }
 }

@@ -22,7 +22,7 @@
                               "title": {
                                 "type": "string"
                               },
-                              "executions": {
+                              "relationexecutionscategories": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -39,7 +39,7 @@
                                             "title": {
                                               "type": "string"
                                             },
-                                            "execution_categories": {
+                                            "relationexecution": {
                                               "type": "object",
                                               "properties": {
                                                 "data": {
@@ -56,7 +56,7 @@
                                                           "title": {
                                                             "type": "string"
                                                           },
-                                                          "executions": {
+                                                          "relationexecutionscategories": {
                                                             "type": "object",
                                                             "properties": {
                                                               "data": {
@@ -833,7 +833,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -850,7 +850,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -867,7 +867,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -1533,7 +1533,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "executions": {
+                      "relationexecutionscategories": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -1627,7 +1627,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -1644,7 +1644,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -1661,7 +1661,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -2347,7 +2347,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -2364,7 +2364,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -2381,7 +2381,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -3058,7 +3058,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "executions": {
+                      "relationexecutionscategories": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -3327,7 +3327,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -3344,7 +3344,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -3361,7 +3361,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -4038,7 +4038,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "executions": {
+                      "relationexecutionscategories": {
                         "type": "array",
                         "items": {
                           "oneOf": [

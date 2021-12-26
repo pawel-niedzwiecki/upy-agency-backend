@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2021-12-25T16:14:06.199Z"
+    "x-generation-date": "2021-12-26T17:52:47.715Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -72,7 +72,7 @@
                               "title": {
                                 "type": "string"
                               },
-                              "execution_categories": {
+                              "relationexecution": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -89,7 +89,7 @@
                                             "title": {
                                               "type": "string"
                                             },
-                                            "executions": {
+                                            "relationexecutionscategories": {
                                               "type": "object",
                                               "properties": {
                                                 "data": {
@@ -106,7 +106,7 @@
                                                           "title": {
                                                             "type": "string"
                                                           },
-                                                          "execution_categories": {
+                                                          "relationexecution": {
                                                             "type": "object",
                                                             "properties": {
                                                               "data": {
@@ -883,7 +883,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "execution_categories": {
+                            "relationexecution": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -900,7 +900,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "executions": {
+                                          "relationexecutionscategories": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -917,7 +917,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "execution_categories": {
+                                                        "relationexecution": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -1583,7 +1583,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "execution_categories": {
+                      "relationexecution": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -1677,7 +1677,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "execution_categories": {
+                            "relationexecution": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -1694,7 +1694,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "executions": {
+                                          "relationexecutionscategories": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -1711,7 +1711,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "execution_categories": {
+                                                        "relationexecution": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -2397,7 +2397,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "execution_categories": {
+                            "relationexecution": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -2414,7 +2414,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "executions": {
+                                          "relationexecutionscategories": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -2431,7 +2431,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "execution_categories": {
+                                                        "relationexecution": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -3108,7 +3108,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "execution_categories": {
+                      "relationexecution": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -3377,7 +3377,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "execution_categories": {
+                            "relationexecution": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -3394,7 +3394,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "executions": {
+                                          "relationexecutionscategories": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -3411,7 +3411,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "execution_categories": {
+                                                        "relationexecution": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -4088,7 +4088,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "execution_categories": {
+                      "relationexecution": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -4184,7 +4184,7 @@
                               "title": {
                                 "type": "string"
                               },
-                              "executions": {
+                              "relationexecutionscategories": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -4201,7 +4201,7 @@
                                             "title": {
                                               "type": "string"
                                             },
-                                            "execution_categories": {
+                                            "relationexecution": {
                                               "type": "object",
                                               "properties": {
                                                 "data": {
@@ -4218,7 +4218,7 @@
                                                           "title": {
                                                             "type": "string"
                                                           },
-                                                          "executions": {
+                                                          "relationexecutionscategories": {
                                                             "type": "object",
                                                             "properties": {
                                                               "data": {
@@ -4995,7 +4995,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -5012,7 +5012,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -5029,7 +5029,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -5695,7 +5695,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "executions": {
+                      "relationexecutionscategories": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -5789,7 +5789,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -5806,7 +5806,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -5823,7 +5823,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -6509,7 +6509,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -6526,7 +6526,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -6543,7 +6543,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -7220,7 +7220,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "executions": {
+                      "relationexecutionscategories": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -7489,7 +7489,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "executions": {
+                            "relationexecutionscategories": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -7506,7 +7506,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "execution_categories": {
+                                          "relationexecution": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -7523,7 +7523,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "executions": {
+                                                        "relationexecutionscategories": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -8200,7 +8200,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "executions": {
+                      "relationexecutionscategories": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -8296,7 +8296,7 @@
                               "title": {
                                 "type": "string"
                               },
-                              "service_category": {
+                              "relationservicecategory": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -8311,7 +8311,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "services": {
+                                          "relationservices": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -8328,7 +8328,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "service_category": {
+                                                        "relationservicecategory": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -9055,7 +9055,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "service_category": {
+                            "relationservicecategory": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -9070,7 +9070,7 @@
                                         "title": {
                                           "type": "string"
                                         },
-                                        "services": {
+                                        "relationservices": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -9087,7 +9087,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "service_category": {
+                                                      "relationservicecategory": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -9703,7 +9703,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "service_category": {
+                      "relationservicecategory": {
                         "oneOf": [
                           {
                             "type": "integer"
@@ -9777,7 +9777,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "service_category": {
+                            "relationservicecategory": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -9792,7 +9792,7 @@
                                         "title": {
                                           "type": "string"
                                         },
-                                        "services": {
+                                        "relationservices": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -9809,7 +9809,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "service_category": {
+                                                      "relationservicecategory": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -10445,7 +10445,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "service_category": {
+                            "relationservicecategory": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -10460,7 +10460,7 @@
                                         "title": {
                                           "type": "string"
                                         },
-                                        "services": {
+                                        "relationservices": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -10477,7 +10477,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "service_category": {
+                                                      "relationservicecategory": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -11104,7 +11104,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "service_category": {
+                      "relationservicecategory": {
                         "oneOf": [
                           {
                             "type": "integer"
@@ -11355,7 +11355,7 @@
                               "title": {
                                 "type": "string"
                               },
-                              "services": {
+                              "relationservices": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -11372,7 +11372,7 @@
                                             "title": {
                                               "type": "string"
                                             },
-                                            "service_category": {
+                                            "relationservicecategory": {
                                               "type": "object",
                                               "properties": {
                                                 "data": {
@@ -11387,7 +11387,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "services": {
+                                                        "relationservices": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -12140,7 +12140,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "services": {
+                            "relationservices": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -12157,7 +12157,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "service_category": {
+                                          "relationservicecategory": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -12172,7 +12172,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "services": {
+                                                      "relationservices": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -12814,7 +12814,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "services": {
+                      "relationservices": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -12908,7 +12908,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "services": {
+                            "relationservices": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -12925,7 +12925,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "service_category": {
+                                          "relationservicecategory": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -12940,7 +12940,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "services": {
+                                                      "relationservices": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -13602,7 +13602,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "services": {
+                            "relationservices": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -13619,7 +13619,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "service_category": {
+                                          "relationservicecategory": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -13634,7 +13634,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "services": {
+                                                      "relationservices": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -14287,7 +14287,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "services": {
+                      "relationservices": {
                         "type": "array",
                         "items": {
                           "oneOf": [
@@ -14556,7 +14556,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "services": {
+                            "relationservices": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -14573,7 +14573,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "service_category": {
+                                          "relationservicecategory": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -14588,7 +14588,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "services": {
+                                                      "relationservices": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -15241,7 +15241,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "services": {
+                      "relationservices": {
                         "type": "array",
                         "items": {
                           "oneOf": [

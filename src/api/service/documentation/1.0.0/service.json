@@ -22,7 +22,7 @@
                               "title": {
                                 "type": "string"
                               },
-                              "service_category": {
+                              "relationservicecategory": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -37,7 +37,7 @@
                                           "title": {
                                             "type": "string"
                                           },
-                                          "services": {
+                                          "relationservices": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -54,7 +54,7 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "service_category": {
+                                                        "relationservicecategory": {
                                                           "type": "object",
                                                           "properties": {
                                                             "data": {
@@ -781,7 +781,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "service_category": {
+                            "relationservicecategory": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -796,7 +796,7 @@
                                         "title": {
                                           "type": "string"
                                         },
-                                        "services": {
+                                        "relationservices": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -813,7 +813,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "service_category": {
+                                                      "relationservicecategory": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -1429,7 +1429,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "service_category": {
+                      "relationservicecategory": {
                         "oneOf": [
                           {
                             "type": "integer"
@@ -1503,7 +1503,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "service_category": {
+                            "relationservicecategory": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -1518,7 +1518,7 @@
                                         "title": {
                                           "type": "string"
                                         },
-                                        "services": {
+                                        "relationservices": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -1535,7 +1535,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "service_category": {
+                                                      "relationservicecategory": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -2171,7 +2171,7 @@
                             "title": {
                               "type": "string"
                             },
-                            "service_category": {
+                            "relationservicecategory": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -2186,7 +2186,7 @@
                                         "title": {
                                           "type": "string"
                                         },
-                                        "services": {
+                                        "relationservices": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -2203,7 +2203,7 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "service_category": {
+                                                      "relationservicecategory": {
                                                         "type": "object",
                                                         "properties": {
                                                           "data": {
@@ -2830,7 +2830,7 @@
                       "title": {
                         "type": "string"
                       },
-                      "service_category": {
+                      "relationservicecategory": {
                         "oneOf": [
                           {
                             "type": "integer"

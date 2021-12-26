@@ -25,11 +25,11 @@
       "type": "string",
       "unique": true
     },
-    "services": {
+    "relationservices": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::service.service",
-      "mappedBy": "service_category"
+      "mappedBy": "relationservicecategory"
     }
   }
 }
