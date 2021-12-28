@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "execution_categories",
+  "info": {
+    "name": "execution categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.seo",
+      "required": true
+    },
+    "executions": {
+      "via": "execution_category",
+      "collection": "executions"
+    }
+  }
+}
