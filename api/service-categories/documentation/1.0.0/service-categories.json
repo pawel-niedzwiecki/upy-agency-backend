@@ -633,7 +633,9 @@
               "required": [
                 "id",
                 "title",
-                "seo"
+                "seo",
+                "excerpt",
+                "cover"
               ],
               "properties": {
                 "id": {
@@ -646,6 +648,12 @@
                   "type": "component"
                 },
                 "service_category": {
+                  "type": "string"
+                },
+                "excerpt": {
+                  "type": "string"
+                },
+                "cover": {
                   "type": "string"
                 },
                 "created_by": {
