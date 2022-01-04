@@ -312,7 +312,8 @@
     "schemas": {
       "Home": {
         "required": [
-          "id"
+          "id",
+          "info"
         ],
         "properties": {
           "id": {
@@ -355,15 +356,56 @@
                 }
               }
             }
+          },
+          "info": {
+            "type": "object",
+            "required": [
+              "id",
+              "title",
+              "description"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
           }
         }
       },
       "NewHome": {
+        "required": [
+          "info"
+        ],
         "properties": {
           "services": {
             "type": "array",
             "items": {
               "type": "string"
+            }
+          },
+          "info": {
+            "type": "object",
+            "required": [
+              "id",
+              "title",
+              "description"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
             }
           },
           "created_by": {

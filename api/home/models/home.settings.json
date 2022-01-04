@@ -14,6 +14,12 @@
   "attributes": {
     "services": {
       "collection": "services"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.info",
+      "required": true
     }
   }
 }
