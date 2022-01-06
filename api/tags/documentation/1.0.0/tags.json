@@ -652,6 +652,49 @@
                 }
               }
             }
+          },
+          "executions": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "title",
+                "seo",
+                "url"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "seo": {
+                  "type": "component"
+                },
+                "execution_category": {
+                  "type": "string"
+                },
+                "technologies": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "url": {
+                  "type": "string"
+                },
+                "github": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -752,6 +795,12 @@
             }
           },
           "blogs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "executions": {
             "type": "array",
             "items": {
               "type": "string"

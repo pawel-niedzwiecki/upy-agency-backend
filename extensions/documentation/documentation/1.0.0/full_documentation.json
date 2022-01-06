@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/04/2022 4:44:09 PM"
+    "x-generation-date": "01/06/2022 3:34:32 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6815,6 +6815,12 @@
                     "type": "string"
                   }
                 },
+                "executions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -7135,7 +7141,8 @@
               "required": [
                 "id",
                 "title",
-                "seo"
+                "seo",
+                "url"
               ],
               "properties": {
                 "id": {
@@ -7148,6 +7155,18 @@
                   "type": "component"
                 },
                 "execution_category": {
+                  "type": "string"
+                },
+                "technologies": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "url": {
+                  "type": "string"
+                },
+                "github": {
                   "type": "string"
                 },
                 "created_by": {
@@ -7275,7 +7294,8 @@
         "required": [
           "id",
           "title",
-          "seo"
+          "seo",
+          "url"
         ],
         "properties": {
           "id": {
@@ -7400,13 +7420,59 @@
                 "type": "string"
               }
             }
+          },
+          "technologies": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "title",
+                "seo"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "seo": {
+                  "type": "component"
+                },
+                "blogs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "executions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "url": {
+            "type": "string"
+          },
+          "github": {
+            "type": "string"
           }
         }
       },
       "NewExecutions": {
         "required": [
           "title",
-          "seo"
+          "seo",
+          "url"
         ],
         "properties": {
           "title": {
@@ -7500,6 +7566,18 @@
             }
           },
           "execution_category": {
+            "type": "string"
+          },
+          "technologies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "url": {
+            "type": "string"
+          },
+          "github": {
             "type": "string"
           },
           "created_by": {
@@ -8319,6 +8397,49 @@
                 }
               }
             }
+          },
+          "executions": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "title",
+                "seo",
+                "url"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "seo": {
+                  "type": "component"
+                },
+                "execution_category": {
+                  "type": "string"
+                },
+                "technologies": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "url": {
+                  "type": "string"
+                },
+                "github": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -8419,6 +8540,12 @@
             }
           },
           "blogs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "executions": {
             "type": "array",
             "items": {
               "type": "string"

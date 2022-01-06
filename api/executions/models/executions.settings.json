@@ -25,6 +25,20 @@
     "execution_category": {
       "model": "execution-categories",
       "via": "executions"
+    },
+    "technologies": {
+      "collection": "tags",
+      "via": "executions",
+      "dominant": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "github": {
+      "type": "string",
+      "unique": true
     }
   }
 }

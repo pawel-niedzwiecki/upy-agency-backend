@@ -26,6 +26,10 @@
     "blogs": {
       "via": "tags",
       "collection": "blog"
+    },
+    "executions": {
+      "via": "technologies",
+      "collection": "executions"
     }
   }
 }
