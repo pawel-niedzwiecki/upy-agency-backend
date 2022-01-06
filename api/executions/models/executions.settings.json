@@ -39,6 +39,16 @@
     "github": {
       "type": "string",
       "unique": true
+    },
+    "start": {
+      "type": "richtext",
+      "unique": true,
+      "required": true
+    },
+    "purposeandprocess": {
+      "type": "richtext",
+      "required": true,
+      "unique": true
     }
   }
 }

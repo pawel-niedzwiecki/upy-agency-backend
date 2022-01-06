@@ -634,7 +634,9 @@
                 "id",
                 "title",
                 "seo",
-                "url"
+                "url",
+                "start",
+                "purposeandprocess"
               ],
               "properties": {
                 "id": {
@@ -659,6 +661,12 @@
                   "type": "string"
                 },
                 "github": {
+                  "type": "string"
+                },
+                "start": {
+                  "type": "string"
+                },
+                "purposeandprocess": {
                   "type": "string"
                 },
                 "created_by": {

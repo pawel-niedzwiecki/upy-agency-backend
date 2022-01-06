@@ -519,7 +519,9 @@
           "id",
           "title",
           "seo",
-          "url"
+          "url",
+          "start",
+          "purposeandprocess"
         ],
         "properties": {
           "id": {
@@ -689,6 +691,12 @@
           },
           "github": {
             "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "purposeandprocess": {
+            "type": "string"
           }
         }
       },
@@ -696,7 +704,9 @@
         "required": [
           "title",
           "seo",
-          "url"
+          "url",
+          "start",
+          "purposeandprocess"
         ],
         "properties": {
           "title": {
@@ -802,6 +812,12 @@
             "type": "string"
           },
           "github": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "purposeandprocess": {
             "type": "string"
           },
           "created_by": {

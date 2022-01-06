@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/06/2022 3:34:32 PM"
+    "x-generation-date": "01/06/2022 6:57:33 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7142,7 +7142,9 @@
                 "id",
                 "title",
                 "seo",
-                "url"
+                "url",
+                "start",
+                "purposeandprocess"
               ],
               "properties": {
                 "id": {
@@ -7167,6 +7169,12 @@
                   "type": "string"
                 },
                 "github": {
+                  "type": "string"
+                },
+                "start": {
+                  "type": "string"
+                },
+                "purposeandprocess": {
                   "type": "string"
                 },
                 "created_by": {
@@ -7295,7 +7303,9 @@
           "id",
           "title",
           "seo",
-          "url"
+          "url",
+          "start",
+          "purposeandprocess"
         ],
         "properties": {
           "id": {
@@ -7465,6 +7475,12 @@
           },
           "github": {
             "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "purposeandprocess": {
+            "type": "string"
           }
         }
       },
@@ -7472,7 +7488,9 @@
         "required": [
           "title",
           "seo",
-          "url"
+          "url",
+          "start",
+          "purposeandprocess"
         ],
         "properties": {
           "title": {
@@ -7578,6 +7596,12 @@
             "type": "string"
           },
           "github": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "purposeandprocess": {
             "type": "string"
           },
           "created_by": {
@@ -8405,7 +8429,9 @@
                 "id",
                 "title",
                 "seo",
-                "url"
+                "url",
+                "start",
+                "purposeandprocess"
               ],
               "properties": {
                 "id": {
@@ -8430,6 +8456,12 @@
                   "type": "string"
                 },
                 "github": {
+                  "type": "string"
+                },
+                "start": {
+                  "type": "string"
+                },
+                "purposeandprocess": {
                   "type": "string"
                 },
                 "created_by": {
