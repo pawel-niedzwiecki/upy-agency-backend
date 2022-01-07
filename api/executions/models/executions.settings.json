@@ -27,8 +27,8 @@
       "via": "executions"
     },
     "technologies": {
-      "collection": "tags",
       "via": "executions",
+      "collection": "tags",
       "dominant": true
     },
     "url": {

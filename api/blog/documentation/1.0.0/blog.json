@@ -590,7 +590,8 @@
               "required": [
                 "id",
                 "title",
-                "seo"
+                "seo",
+                "brand"
               ],
               "properties": {
                 "id": {
@@ -613,6 +614,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "brand": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"

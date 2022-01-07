@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "they_trusted_uses",
   "info": {
-    "name": "they trusted us"
+    "name": "they trusted us",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,7 +17,7 @@
       "required": true,
       "unique": true
     },
-    "logo": {
+    "brand": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

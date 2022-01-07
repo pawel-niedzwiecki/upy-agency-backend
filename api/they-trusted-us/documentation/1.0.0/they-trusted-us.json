@@ -531,7 +531,7 @@
         "required": [
           "id",
           "url",
-          "logo"
+          "brand"
         ],
         "properties": {
           "id": {
@@ -540,7 +540,7 @@
           "url": {
             "type": "string"
           },
-          "logo": {
+          "brand": {
             "required": [
               "id",
               "name",

@@ -28,8 +28,8 @@
       "via": "blogs"
     },
     "tags": {
-      "collection": "tags",
       "via": "blogs",
+      "collection": "tags",
       "dominant": true
     },
     "seo": {
