@@ -531,7 +531,8 @@
         "required": [
           "id",
           "url",
-          "brand"
+          "brand",
+          "title"
         ],
         "properties": {
           "id": {
@@ -606,15 +607,22 @@
                 "type": "string"
               }
             }
+          },
+          "title": {
+            "type": "string"
           }
         }
       },
       "NewThey-trusted-us": {
         "required": [
-          "url"
+          "url",
+          "title"
         ],
         "properties": {
           "url": {
+            "type": "string"
+          },
+          "title": {
             "type": "string"
           },
           "created_by": {

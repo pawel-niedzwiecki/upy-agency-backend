@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "wrote_about_uses",
   "info": {
-    "name": "wrote about uses"
+    "name": "wrote about uses",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -25,6 +26,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
     }
   }
 }
