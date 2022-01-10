@@ -637,7 +637,8 @@
                 "excerpt",
                 "cover",
                 "header",
-                "description"
+                "description",
+                "content"
               ],
               "properties": {
                 "id": {

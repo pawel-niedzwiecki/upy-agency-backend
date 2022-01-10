@@ -62,7 +62,8 @@
       "components": [
         "content.service-content",
         "content.service-info"
-      ]
+      ],
+      "required": true
     }
   }
 }
