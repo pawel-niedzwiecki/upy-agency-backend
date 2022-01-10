@@ -57,7 +57,7 @@
         "content.options"
       ]
     },
-    "Content": {
+    "content": {
       "type": "dynamiczone",
       "components": [
         "content.service-content",

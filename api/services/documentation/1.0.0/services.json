@@ -751,7 +751,7 @@
               ]
             }
           },
-          "Content": {
+          "content": {
             "type": "array",
             "items": {
               "oneOf": [
@@ -1034,7 +1034,7 @@
               ]
             }
           },
-          "Content": {
+          "content": {
             "type": "array",
             "items": {
               "oneOf": [

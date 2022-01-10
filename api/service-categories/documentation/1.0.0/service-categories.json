@@ -667,7 +667,7 @@
                 "options": {
                   "type": "dynamiczone"
                 },
-                "Content": {
+                "content": {
                   "type": "dynamiczone"
                 },
                 "created_by": {
