@@ -2,11 +2,12 @@
   "collectionName": "components_content_options",
   "info": {
     "name": "options",
-    "icon": "check"
+    "icon": "check",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "options": {
+    "title": {
       "type": "string",
       "required": true
     }

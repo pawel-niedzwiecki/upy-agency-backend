@@ -739,13 +739,13 @@
                     "id": {
                       "type": "string"
                     },
-                    "options": {
+                    "title": {
                       "type": "string"
                     }
                   },
                   "required": [
                     "id",
-                    "options"
+                    "title"
                   ]
                 }
               ]
@@ -879,13 +879,13 @@
                     "id": {
                       "type": "string"
                     },
-                    "options": {
+                    "title": {
                       "type": "string"
                     }
                   },
                   "required": [
                     "id",
-                    "options"
+                    "title"
                   ]
                 }
               ]
