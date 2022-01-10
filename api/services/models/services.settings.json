@@ -40,6 +40,22 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "header": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "options": {
+      "type": "dynamiczone",
+      "components": [
+        "content.options"
+      ]
     }
   }
 }

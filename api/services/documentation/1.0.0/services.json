@@ -520,7 +520,9 @@
           "title",
           "seo",
           "excerpt",
-          "cover"
+          "cover",
+          "header",
+          "description"
         ],
         "properties": {
           "id": {
@@ -715,6 +717,39 @@
                 "type": "string"
               }
             }
+          },
+          "header": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "content.options"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "options": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "options"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
@@ -722,7 +757,9 @@
         "required": [
           "title",
           "seo",
-          "excerpt"
+          "excerpt",
+          "header",
+          "description"
         ],
         "properties": {
           "title": {
@@ -820,6 +857,39 @@
           },
           "excerpt": {
             "type": "string"
+          },
+          "header": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "content.options"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "options": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "options"
+                  ]
+                }
+              ]
+            }
           },
           "created_by": {
             "type": "string"

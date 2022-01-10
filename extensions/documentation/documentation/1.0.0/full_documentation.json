@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/07/2022 5:29:27 PM"
+    "x-generation-date": "01/10/2022 3:04:36 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7637,7 +7637,9 @@
                 "title",
                 "seo",
                 "excerpt",
-                "cover"
+                "cover",
+                "header",
+                "description"
               ],
               "properties": {
                 "id": {
@@ -7657,6 +7659,15 @@
                 },
                 "cover": {
                   "type": "string"
+                },
+                "header": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "options": {
+                  "type": "dynamiczone"
                 },
                 "created_by": {
                   "type": "string"
@@ -7834,7 +7845,9 @@
                 "title",
                 "seo",
                 "excerpt",
-                "cover"
+                "cover",
+                "header",
+                "description"
               ],
               "properties": {
                 "id": {
@@ -7854,6 +7867,15 @@
                 },
                 "cover": {
                   "type": "string"
+                },
+                "header": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "options": {
+                  "type": "dynamiczone"
                 },
                 "created_by": {
                   "type": "string"
@@ -7982,7 +8004,9 @@
           "title",
           "seo",
           "excerpt",
-          "cover"
+          "cover",
+          "header",
+          "description"
         ],
         "properties": {
           "id": {
@@ -8177,6 +8201,39 @@
                 "type": "string"
               }
             }
+          },
+          "header": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "content.options"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "options": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "options"
+                  ]
+                }
+              ]
+            }
           }
         }
       },
@@ -8184,7 +8241,9 @@
         "required": [
           "title",
           "seo",
-          "excerpt"
+          "excerpt",
+          "header",
+          "description"
         ],
         "properties": {
           "title": {
@@ -8282,6 +8341,39 @@
           },
           "excerpt": {
             "type": "string"
+          },
+          "header": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "content.options"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "options": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "options"
+                  ]
+                }
+              ]
+            }
           },
           "created_by": {
             "type": "string"

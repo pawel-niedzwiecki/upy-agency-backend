@@ -327,7 +327,9 @@
                 "title",
                 "seo",
                 "excerpt",
-                "cover"
+                "cover",
+                "header",
+                "description"
               ],
               "properties": {
                 "id": {
@@ -347,6 +349,15 @@
                 },
                 "cover": {
                   "type": "string"
+                },
+                "header": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "options": {
+                  "type": "dynamiczone"
                 },
                 "created_by": {
                   "type": "string"

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_options",
+  "info": {
+    "name": "options",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "options": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
