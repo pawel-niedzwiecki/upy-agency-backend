@@ -534,8 +534,7 @@
             "required": [
               "id",
               "username",
-              "email",
-              "job"
+              "email"
             ],
             "properties": {
               "id": {
@@ -577,7 +576,7 @@
                   "type": "string"
                 }
               },
-              "job": {
+              "competition": {
                 "type": "string"
               },
               "created_by": {

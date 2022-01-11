@@ -73,9 +73,9 @@
       "via": "users_permissions_user",
       "collection": "blog"
     },
-    "job": {
-      "type": "string",
-      "required": true
+    "competition": {
+      "model": "competition",
+      "via": "user"
     }
   }
 }

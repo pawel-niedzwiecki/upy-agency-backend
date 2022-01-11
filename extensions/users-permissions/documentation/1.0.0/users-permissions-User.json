@@ -1188,8 +1188,7 @@
         "required": [
           "id",
           "username",
-          "email",
-          "job"
+          "email"
         ],
         "properties": {
           "id": {
@@ -1358,16 +1357,35 @@
               }
             }
           },
-          "job": {
-            "type": "string"
+          "competition": {
+            "required": [
+              "id",
+              "title"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           }
         }
       },
       "NewUsersPermissionsUser": {
         "required": [
           "username",
-          "email",
-          "job"
+          "email"
         ],
         "properties": {
           "username": {
@@ -1409,7 +1427,7 @@
               "type": "string"
             }
           },
-          "job": {
+          "competition": {
             "type": "string"
           },
           "created_by": {
