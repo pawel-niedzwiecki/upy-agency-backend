@@ -451,7 +451,8 @@
               "required": [
                 "id",
                 "username",
-                "email"
+                "email",
+                "job"
               ],
               "properties": {
                 "id": {
@@ -492,6 +493,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "job": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"

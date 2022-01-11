@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/11/2022 3:31:57 PM"
+    "x-generation-date": "01/11/2022 3:57:36 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7169,7 +7169,8 @@
               "required": [
                 "id",
                 "username",
-                "email"
+                "email",
+                "job"
               ],
               "properties": {
                 "id": {
@@ -7210,6 +7211,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "job": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -7556,7 +7560,8 @@
             "required": [
               "id",
               "username",
-              "email"
+              "email",
+              "job"
             ],
             "properties": {
               "id": {
@@ -7597,6 +7602,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "job": {
+                "type": "string"
               },
               "created_by": {
                 "type": "string"
@@ -10148,7 +10156,8 @@
               "required": [
                 "id",
                 "username",
-                "email"
+                "email",
+                "job"
               ],
               "properties": {
                 "id": {
@@ -10189,6 +10198,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "job": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -10240,7 +10252,8 @@
         "required": [
           "id",
           "username",
-          "email"
+          "email",
+          "job"
         ],
         "properties": {
           "id": {
@@ -10408,13 +10421,17 @@
                 }
               }
             }
+          },
+          "job": {
+            "type": "string"
           }
         }
       },
       "NewUsersPermissionsUser": {
         "required": [
           "username",
-          "email"
+          "email",
+          "job"
         ],
         "properties": {
           "username": {
@@ -10455,6 +10472,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "job": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

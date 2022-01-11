@@ -1188,7 +1188,8 @@
         "required": [
           "id",
           "username",
-          "email"
+          "email",
+          "job"
         ],
         "properties": {
           "id": {
@@ -1356,13 +1357,17 @@
                 }
               }
             }
+          },
+          "job": {
+            "type": "string"
           }
         }
       },
       "NewUsersPermissionsUser": {
         "required": [
           "username",
-          "email"
+          "email",
+          "job"
         ],
         "properties": {
           "username": {
@@ -1403,6 +1408,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "job": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
