@@ -75,7 +75,7 @@
     },
     "competition": {
       "model": "competition",
-      "via": "user"
+      "via": "users"
     }
   }
 }

@@ -16,10 +16,10 @@
       "required": true,
       "unique": true
     },
-    "user": {
+    "users": {
       "via": "competition",
       "plugin": "users-permissions",
-      "model": "user"
+      "collection": "user"
     }
   }
 }
