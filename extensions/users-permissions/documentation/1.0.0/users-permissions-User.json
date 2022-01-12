@@ -1324,7 +1324,8 @@
               "required": [
                 "id",
                 "title",
-                "excerpt"
+                "excerpt",
+                "cover"
               ],
               "properties": {
                 "id": {
@@ -1347,6 +1348,9 @@
                 },
                 "seo": {
                   "type": "component"
+                },
+                "cover": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
