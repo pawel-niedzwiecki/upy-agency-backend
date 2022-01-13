@@ -622,7 +622,8 @@
                 "id",
                 "title",
                 "excerpt",
-                "cover"
+                "cover",
+                "content"
               ],
               "properties": {
                 "id": {
@@ -648,6 +649,9 @@
                 },
                 "cover": {
                   "type": "string"
+                },
+                "content": {
+                  "type": "dynamiczone"
                 },
                 "created_by": {
                   "type": "string"

@@ -46,6 +46,14 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "content.description",
+        "content.image"
+      ],
+      "required": true
     }
   }
 }

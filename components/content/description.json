@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_descriptions",
+  "info": {
+    "name": "description",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "unique": false
+    }
+  }
+}
