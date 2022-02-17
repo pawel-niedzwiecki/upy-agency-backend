@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "execution_categories",
   "info": {
-    "name": "execution categories"
+    "name": "Realizacje kategorie",
+    "description": ""
   },
   "options": {
     "increments": true,

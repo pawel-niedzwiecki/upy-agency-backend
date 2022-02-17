@@ -74,8 +74,8 @@
       "collection": "blog"
     },
     "competition": {
-      "model": "competition",
-      "via": "users"
+      "via": "users",
+      "model": "competition"
     }
   }
 }

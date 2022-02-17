@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "executions",
   "info": {
-    "name": "executions",
+    "name": "Realizacje",
     "description": ""
   },
   "options": {
@@ -23,8 +23,8 @@
       "required": true
     },
     "execution_category": {
-      "model": "execution-categories",
-      "via": "executions"
+      "via": "executions",
+      "model": "execution-categories"
     },
     "technologies": {
       "via": "executions",

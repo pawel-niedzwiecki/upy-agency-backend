@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "services",
   "info": {
-    "name": "services",
+    "name": "Usługi",
     "description": ""
   },
   "options": {
@@ -23,8 +23,8 @@
       "required": true
     },
     "service_category": {
-      "model": "service-categories",
-      "via": "services"
+      "via": "services",
+      "model": "service-categories"
     },
     "excerpt": {
       "type": "text",
